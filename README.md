@@ -1,17 +1,27 @@
-# Network-Administration-Internship-Week1
-Excited to share that I have successfully completed Week 01 of my Network Administration Internship at IT-SIMPLERA Solutions! 🚀
+# Network Administration Internship – Week 01
+**Company:** IT-SIMPLERA Solutions  
+**Intern:** Rizwan Aslam  
+**Supervisor:** Jawad Qayum (Senior Network Administrator)  
 
-This week's focus was on strengthening core computer networking fundamentals and gaining hands-on experience with industry-standard simulation and terminal tools: Cisco Packet Tracer, GNS3, and PuTTY.
+## 📌 Assignment Overview
+Week 01 focused on mastering foundational networking concepts and building hands-on experience with industry-standard simulation and terminal tools (**Cisco Packet Tracer**, **GNS3**, and **PuTTY**).
 
-🔹 Key Highlights of Week 01 Lab Work:
-✅ Designed and implemented identical star-topology Local Area Networks (LAN) in both Cisco Packet Tracer and GNS3.
-✅ Configured static IPv4 addressing (192.168.10.0/24) across multiple hosts connected via a Layer 2 Switch.
-✅ Used PuTTY / Solar-PuTTY for Telnet CLI access to GNS3 VPCS nodes.
-✅ Verified end-to-end network reachability using ICMP ping tests with 0% packet loss.
-✅ Documented the complete architecture, interface walkthroughs, and troubleshooting steps in a technical report.
+## 🛠️ Tools Used
+- **Cisco Packet Tracer** (LAN Topology & Simulation)
+- **GNS3** (Network Emulation with VPCS & Ethernet Switch)
+- **PuTTY / Solar-PuTTY** (Telnet CLI Access & Diagnostics)
 
-Grateful to my supervisor, Jawad Qayum (Senior Network Administrator), and the team at IT-SIMPLERA Solutions for the guidance and structured learning path. Looking forward to diving deeper into routing, switching, and network security in the upcoming weeks!
+## 🌐 Lab Topology & IP Addressing Plan
+A star-topology Local Area Network (LAN) connecting 3 end hosts to a Layer 2 Switch was implemented across both platforms:
 
-📂 GitHub Repository: [Apna GitHub Repo Link Yahan Paste Karein]
+| Host | Platform | Port | IPv4 Address | Subnet Mask |
+| :--- | :--- | :--- | :--- | :--- |
+| PC0 / PC1 | Packet Tracer / GNS3 | Fa0/1 / Ethernet0 | `192.168.10.1` | `255.255.255.0` |
+| PC1 / PC2 | Packet Tracer / GNS3 | Fa0/2 / Ethernet1 | `192.168.10.2` | `255.255.255.0` |
+| PC2 / PC3 | Packet Tracer / GNS3 | Fa0/3 / Ethernet2 | `192.168.10.3` | `255.255.255.0` |
 
-#NetworkAdministration #CiscoPacketTracer #GNS3 #PuTTY #NetworkingFundamentals #ITInfrastructure #ComputerNetworks #InternshipJourney #ITSimpleraSolutions
+## ✅ Key Deliverables Included
+- `Report.pdf` – Complete technical documentation with topologies, ping verification, and troubleshooting notes.
+- `Cisco Packet Tracer.pkt` – Configured Packet Tracer LAN lab file.
+- `GNS3 Project` – Configured GNS3 project files.
+- `Screenshots/` – Visual proof of topologies and successful ICMP ping results (0% packet loss).
